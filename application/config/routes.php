@@ -66,3 +66,55 @@ $route['empleados/ajax_list_info'] = 'empleados/empleados/$1/ajax_list_info';
 $route['empleados/ajax_list'] = 'empleados/empleados/$1/ajax_list';
 $route['empleados/read/:num'] = 'empleados/empleados/$1/read';
 $route['empleados/export'] = 'empleados/empleados/$1/export';
+
+$route['prueba'] = 'Prueba';
+
+# Student
+$route['students'] = 'students';
+$route['students/add'] = 'students/$1/add';
+$route['students/insert'] = 'students/$1/insert';
+$route['students/insert_validation'] = 'students/$1/insert_validation';
+$route['students/success/:num'] = 'students/$1/success';
+$route['students/delete/:num'] = 'students/$1/delete';
+$route['students/edit/:num'] = 'students/$1/edit';
+$route['students/update_validation/:num'] = 'students/$1/update_validation';
+$route['students/update/:num'] = 'students/$1/update';
+$route['students/ajax_list_info'] = 'students/$1/ajax_list_info';
+$route['students/ajax_list'] = 'students/$1/ajax_list';
+$route['students/read/:num'] = 'students/$1/read';
+$route['students/export'] = 'students/$1/export';
+
+# Teachers
+$route['teachers'] = 'teachers';
+$route['teachers/add'] = 'teachers/$1/add';
+$route['teachers/insert'] = 'teachers/$1/insert';
+$route['teachers/insert_validation'] = 'teachers/$1/insert_validation';
+$route['teachers/success/:num'] = 'teachers/$1/success';
+$route['teachers/delete/:num'] = 'teachers/$1/delete';
+$route['teachers/edit/:num'] = 'teachers/$1/edit';
+$route['teachers/update_validation/:num'] = 'teachers/$1/update_validation';
+$route['teachers/update/:num'] = 'teachers/$1/update';
+$route['teachers/ajax_list_info'] = 'teachers/$1/ajax_list_info';
+$route['teachers/ajax_list'] = 'teachers/$1/ajax_list';
+$route['teachers/read/:num'] = 'teachers/$1/read';
+$route['teachers/export'] = 'teachers/$1/export';
+
+# Courses
+$route['courses'] = 'teachers';
+$route['courses/add'] = 'courses/$1/add';
+$route['courses/insert'] = 'courses/$1/insert';
+$route['courses/insert_validation'] = 'courses/$1/insert_validation';
+$route['courses/success/:num'] = 'courses/$1/success';
+$route['courses/delete/:num'] = 'courses/$1/delete';
+$route['courses/edit/:num'] = 'courses/$1/edit';
+$route['courses/update_validation/:num'] = 'courses/$1/update_validation';
+$route['courses/update/:num'] = 'courses/$1/update';
+$route['courses/ajax_list_info'] = 'courses/$1/ajax_list_info';
+$route['courses/ajax_list'] = 'courses/$1/ajax_list';
+$route['courses/read/:num'] = 'courses/$1/read';
+$route['courses/export'] = 'courses/$1/export';
+
+#Student Courses
+
+$route['studentcourses'] = 'studentcourses/list';
+$route['studentcourses/list'] = 'studentcourses/draw';
